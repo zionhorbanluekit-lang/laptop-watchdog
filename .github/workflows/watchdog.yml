@@ -29,6 +29,6 @@ jobs:
               -d "$(jq -cn --arg c "🔴 OFFLINE — last seen $seen_local" '{content:$c}')" \
               "$WEBHOOK/messages/$MSG_ID" >/dev/null
             curl -sf -H 'Content-Type: application/json' \
-              -d "$(jq -cn --arg c "@here 🔴 $name OFFLINE — no heartbeat for $age min (last seen $seen_local)" '{content:$c}')" \
+              -d "$(jq -cn --arg c "@everyone 🔴 $name OFFLINE — no heartbeat for $age min (last seen $seen_local)" '{content:$c}')" \
               "$WEBHOOK" >/dev/null
           done
