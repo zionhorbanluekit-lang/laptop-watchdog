@@ -1,0 +1,8 @@
+{
+  "webhook": "https://discord.com/api/webhooks/1549995708441165835/tzSKEZVaI4q1gdV16J3fC7sX7AxMeQjIndQtSN3V8pFe2XXKqbVG9tOATvNVWXeOAiVA",
+  "statusMessageId": "",
+  "botProcess": "python",
+  "lowBatteryPct": 20,
+  "intervalSec": 60,
+  "offlineAfterMin": 15
+}
